@@ -3,7 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "malaria-moi"
+name = "malariaMOI"
 authors = [{name = "Jody Phelan, Nina Billows", email = "Nina.Billows@lshtm.ac.uk"}]
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
@@ -13,4 +13,4 @@ dependencies = [
     "pydantic",
 ]
 [project.scripts]
-malaria-moi = "malaria-moi.main:cli"
+malariaMOI = "malariaMOI.main:cli"
