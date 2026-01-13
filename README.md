@@ -7,7 +7,7 @@ This is a tool to estimate multiplicity of infection (MOI) from BAM and VCF inpu
 ## Installation
 
 ```
-pip install git+https://github.com/jodyphelan/pyMOI.git
+pip install git@github.com:LSHTMPathogenSeqLab/Malaria-MOI.git
 ```
 
 ## Usage
