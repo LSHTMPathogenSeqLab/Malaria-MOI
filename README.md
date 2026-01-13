@@ -2,12 +2,12 @@
 
 ## Introduction
 
-This is a tool to estimate multiplicity of infection (MOI) from BAM and VCF inputs. This is particularly useful in the context of malaria.
+This is a tool to estimate multiplicity of infection (MOI) from BAM and VCF inputs. This is particularly useful in the context of malaria. Compatible with python=3.11.
 
 ## Installation
 
 ```
-pip install git@github.com:LSHTMPathogenSeqLab/Malaria-MOI.git
+git clone 
 ```
 
 ## Usage
