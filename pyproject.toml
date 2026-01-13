@@ -12,6 +12,7 @@ dependencies = [
     "pysam",
     "pydantic",
     "tqdm",
+    "tabulate",
 ]
 [project.scripts]
 malariaMOI = "malariaMOI.main:cli"
