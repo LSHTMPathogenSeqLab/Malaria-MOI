@@ -1,8 +1,8 @@
-# pyMOI
+# Malaria-MOI
 
 ## Introduction
 
-This is a reimplementation of [estMOI](https://github.com/sammy-assefa/estMOI) in python. Still work in progress.
+This is a tool to estimate multiplicity of infection (MOI) from BAM and VCF inputs. This is particularly useful in the context of malaria.
 
 ## Installation
 
