@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is a tool to estimate multiplicity of infection (MOI) from BAM and VCF inputs. This is particularly useful in the context of malaria. Compatible with python=3.11.
+This is a tool to estimate multiplicity of infection (MOI) from BAM and VCF inputs. This is particularly useful in the context of malaria. Compatible with python=3.11, ensure MD tag is in BAM header.
 
 ## Installation
 
