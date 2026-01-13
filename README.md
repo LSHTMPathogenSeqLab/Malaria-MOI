@@ -8,6 +8,7 @@ This is a tool to estimate multiplicity of infection (MOI) from BAM and VCF inpu
 
 ```
 conda create -n malariaMOI python=3.11
+conda activate malariaMOI
 git clone https://github.com/LSHTMPathogenSeqLab/Malaria-MOI.git
 cd /path/to/Malaria-MOI
 pip install -e .
