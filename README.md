@@ -7,19 +7,22 @@ This is a tool to estimate multiplicity of infection (MOI) from BAM and VCF inpu
 ## Installation
 
 ```
-git clone 
+conda create -n malariaMOI python=3.11
+git clone https://github.com/LSHTMPathogenSeqLab/Malaria-MOI.git
+cd /path/to/Malaria-MOI
+pip install -e .
 ```
 
 ## Usage
 
 ```
-pyMOI --bam <input_bam> --vcf <input_vcf> --outfile <output_json_file>
+malariaMOI --bam <input_bam> --vcf <input_vcf> --outfile <output_json_file>
 ```
 
 ## Help
 
 ```
-usage: pyMOI [-h] --bam BAM --vcf VCF --outfile OUTFILE [--maxdist MAXDIST] [--min_count MIN_COUNT]
+usage: malariaMOI [-h] --bam BAM --vcf VCF --outfile OUTFILE [--maxdist MAXDIST] [--min_count MIN_COUNT]
 
 A simple command line tool for Moi
 
