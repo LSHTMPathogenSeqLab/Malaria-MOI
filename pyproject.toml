@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "pymoi"
-authors = [{name = "Jody Phelan", email = "jody.phelan@lshtm.ac.uk"}]
+authors = [{name = "Jody Phelan, Nina Billows", email = "Nina.Billows@lshtm.ac.uk"}]
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
@@ -13,4 +13,4 @@ dependencies = [
     "pydantic",
 ]
 [project.scripts]
-pymoi = "pymoi.main:cli"
+malaria-moi = "malaria-moi.main:cli"
