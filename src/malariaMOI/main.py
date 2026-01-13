@@ -122,7 +122,7 @@ def main(
     result = {
         "moi": moi,
         "haplotype_counts": count,
-        "software": "malaria-moi",
+        "software": "malariaMOI",
         "version": __version__
     }
     json.dump(result,open(outfile,"w"))
