@@ -11,6 +11,7 @@ dynamic = ["version", "description"]
 dependencies = [
     "pysam",
     "pydantic",
+    "tqdm",
 ]
 [project.scripts]
 malariaMOI = "malariaMOI.main:cli"
