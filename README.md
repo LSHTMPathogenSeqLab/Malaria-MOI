@@ -25,7 +25,7 @@ malariaMOI --bam <input_bam> --vcf <input_vcf> --outfile <output_json_file>
 ```
 usage: malariaMOI [-h] --bam BAM --vcf VCF --outfile OUTFILE [--maxdist MAXDIST] [--min_count MIN_COUNT]
 
-A simple command line tool for Moi
+A simple command line tool for MOI
 
 options:
   -h, --help            show this help message and exit
